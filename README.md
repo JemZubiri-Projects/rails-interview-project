@@ -1,3 +1,12 @@
+## Usage
+
+'Get user with their corresponding questions and answers'
+
+Request Type: GET
+Endpoint: http://localhost:3000/tenant/:user_id
+Headers: {
+    api_key: {{TENANT_API_KEY}}
+}
 # (Forked from Kaleo) 
 # Rails Engineer Candidate Interview Project
 
@@ -40,3 +49,4 @@ You should see this same information.
 ## Submitting your project
 
 Fork this repo and give us access to your fork. If you need to add any additional instructions to the README please put them at the very top of that file and mention. Expect to discuss your design decisions during the interview.
+
